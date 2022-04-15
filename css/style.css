@@ -86,6 +86,14 @@ body {
   margin: 0 auto;
 }
 
+#index {
+  background-image: url(../images/bg-index.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 #index .content {
   margin-top: 150px;
 }
@@ -95,7 +103,35 @@ body {
   line-height: 1;
   color: #ffffff;
   font-family: 'Bitter', serif;
+  margin-bottom: 50px;
 }
+
+#index p {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.btn a {
+  background-color: #009cd3;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+  width: 185px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 3px solid #009cd3;
+}
+
+.btn a:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #009cd3;
+}
+
+
 
 
 
@@ -108,4 +144,10 @@ footer {
 
 footer small {
   font-size: 12px;
+}
+
+#index footer {
+  width: 960px;
+  margin: 150 auto 0 auto;
+  text-align: left;
 }
