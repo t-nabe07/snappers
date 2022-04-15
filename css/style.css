@@ -79,10 +79,18 @@ body {
 /* ------------------- content --------------------- */
 #wrap {
   clear: both;
+  background-color: #ffffff;
+  margin-top: 220px;
+  padding: 35px 0;
 }
 
 .content {
   width: 960px;
+  margin: 0 auto;
+}
+
+.main-center {
+  width: 940px;
   margin: 0 auto;
 }
 
@@ -131,6 +139,43 @@ body {
   color: #009cd3;
 }
 
+#about {
+  background-image: url(../images/bg-about.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+h1 {
+  font-family: 'Bitter', serif;
+  font-size: 36px;
+  border-bottom: 1px solid #cccccc;
+}
+
+h2 {
+  font-family: 'Bitter', serif;
+  font-size: 24px;
+}
+
+.icon:before {
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #9cb4a4;
+}
+
+#about .profile-text {
+  width: 540px;
+  float: left;
+}
+
+#about .profile-text span {
+  font-weight: bold;
+}
+
+#about .profile-image {
+  float: right;
+}
 
 
 
